@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/zzh/Codex/hatch-pets/lumi/run",
+  "spritesheet": "/Users/zzh/Codex/hatch-pets/lumi/run/final/spritesheet-extended.webp",
+  "validation": "/Users/zzh/Codex/hatch-pets/lumi/run/final/validation-extended.json",
+  "chroma_despill": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/look-directions.png",
+  "direction_semantics": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/direction-blind-validation.json",
+  "continuity": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/look-continuity.json",
+  "review": "/Users/zzh/Codex/hatch-pets/lumi/run/qa/review.json",
+  "package": "/Users/zzh/.codex/pets/lumi"
+}

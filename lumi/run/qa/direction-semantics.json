@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "directions": [
+    {"direction":"000","expected":"up","verdict":"pass","observed":"front-facing eyes lifted upward","reason":"Pupils and eyelids sit high in the eye apertures; lower body remains anchored."},
+    {"direction":"022.5","expected":"up-right","verdict":"pass","observed":"slight right yaw with elevated gaze","reason":"Face begins turning right while gaze remains above center."},
+    {"direction":"045","expected":"up-right","verdict":"pass","observed":"right three-quarter with elevated gaze","reason":"Nose and visible eye move right/up continuously."},
+    {"direction":"067.5","expected":"up-right","verdict":"pass","observed":"near-right profile with upward tilt","reason":"Rightward face turn and high eyelid line are clear."},
+    {"direction":"090","expected":"right","verdict":"pass","observed":"screen-right profile","reason":"Nose tip and visible eye are on the screen-right side; far cheek is occluded."},
+    {"direction":"112.5","expected":"down-right","verdict":"pass","observed":"right profile with lowered gaze","reason":"Head remains right-facing while eyelids and pupils drop."},
+    {"direction":"135","expected":"down-right","verdict":"pass","observed":"right rear three-quarter, gaze down","reason":"Backpack side grows visible and face angles down/right."},
+    {"direction":"157.5","expected":"down-right","verdict":"pass","observed":"near-back view with downward tilt","reason":"Rear silhouette dominates while head pitch continues downward."},
+    {"direction":"180","expected":"down","verdict":"pass","observed":"back view with lowered head","reason":"Backpack and rear hair are centered; head is pitched away/down."},
+    {"direction":"202.5","expected":"down-left","verdict":"pass","observed":"left rear three-quarter, gaze down","reason":"Rear view transitions smoothly into left yaw with lowered head."},
+    {"direction":"225","expected":"down-left","verdict":"pass","observed":"left rear three-quarter","reason":"Backpack remains anchored while face turns left and down."},
+    {"direction":"247.5","expected":"down-left","verdict":"pass","observed":"near-left profile with lowered gaze","reason":"Leftward face turn and dropped eyelids are visible."},
+    {"direction":"270","expected":"left","verdict":"pass","observed":"screen-left profile","reason":"Nose tip and visible eye are on the screen-left side; far cheek is occluded."},
+    {"direction":"292.5","expected":"up-left","verdict":"pass","observed":"left profile with rising gaze","reason":"Left yaw reverses smoothly while gaze lifts."},
+    {"direction":"315","expected":"up-left","verdict":"pass","observed":"left three-quarter with elevated gaze","reason":"Face and pupils move left/up with continuous hair follow-through."},
+    {"direction":"337.5","expected":"up-left","verdict":"pass","observed":"near-front left yaw, gaze up","reason":"Final pose approaches the 000 up anchor without a reversal."}
+  ]
+}
