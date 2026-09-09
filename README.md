@@ -18,12 +18,6 @@ npm install
 npm start
 ```
 
-首次安装 Electron 时若网络需代理，可在同一终端运行：
-
-```bash
-ELECTRON_GET_USE_PROXY=1 HTTPS_PROXY=http://127.0.0.1:7892 npm install
-```
-
 关闭窗口以外的方式隐藏 Lumi 后，可从 Dock 点击 `Lumi 桌宠` 重新显示它。
 
 ## 动作预览
