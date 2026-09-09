@@ -1,0 +1,14 @@
+{
+  "name": "lumi-desktop-pet",
+  "productName": "Lumi 桌宠",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight transparent desktop companion for Lumi.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^38.1.0"
+  }
+}
