@@ -2,87 +2,87 @@
   "pairs": [
     {
       "pair": "horizontal-1",
-      "A": "screen-left",
-      "B": "screen-right",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 的瞳孔和鼻尖偏向画面右侧；B 偏向左侧。"
     },
     {
       "pair": "horizontal-2",
       "A": "screen-right",
       "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "reason": "两张脸分别朝画面右侧和左侧。"
     },
     {
       "pair": "horizontal-3",
       "A": "screen-right",
       "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "reason": "A 的鼻尖朝右，B 的鼻尖朝左。"
     },
     {
       "pair": "horizontal-4",
-      "A": "screen-right",
-      "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A、B 的脸部分别转向画面左侧、右侧。"
     },
     {
       "pair": "horizontal-5",
-      "A": "screen-right",
-      "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "低头时仍可见 A 的脸偏左、B 的脸偏右。"
     },
     {
       "pair": "horizontal-6",
-      "A": "screen-right",
-      "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "两张都明显低头，鼻尖和瞳孔不足以确认左右。"
     },
     {
       "pair": "horizontal-7",
-      "A": "screen-right",
-      "B": "screen-left",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A 低头后左右难辨；B 的脸和鼻尖偏向画面右侧。"
     },
     {
       "pair": "vertical-1",
-      "A": "up",
-      "B": "down",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A 的额头压低、视线朝下；B 正面露眼，但向上的方向不明确。"
     },
     {
       "pair": "vertical-2",
-      "A": "up",
-      "B": "down",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A 明显低头；B 主要呈侧向视线，上仰不够明确。"
     },
     {
       "pair": "vertical-3",
-      "A": "down",
-      "B": "up",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A 主要朝画面右侧；B 的头脸明显下垂。"
     },
     {
       "pair": "vertical-4",
-      "A": "down",
-      "B": "up",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A 的侧向朝向清楚，仰视不清楚；B 低头。"
     },
     {
       "pair": "vertical-5",
-      "A": "down",
-      "B": "up",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A 露眼但向上看不明确；B 的眼和鼻尖朝下。"
     },
     {
       "pair": "vertical-6",
-      "A": "down",
-      "B": "up",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A 近正面露眼，缺少明确上仰线索；B 低头。"
     },
     {
       "pair": "vertical-7",
-      "A": "up",
+      "A": "ambiguous",
       "B": "down",
-      "reason": "Visible landmark classification from isolated A/B review"
+      "reason": "A 主要侧向左看，竖直方向不清楚；B 明显低头。"
     }
   ]
 }

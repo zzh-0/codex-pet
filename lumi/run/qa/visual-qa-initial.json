@@ -1,0 +1,142 @@
+{
+  "visual_qa": "fail",
+  "qa_note": "已查看方向图、逐帧图集和九段 GIF。人物身份稳定，画布尺寸一致，未见硬裁切；但实际透明图像中的荧绿色描边明显，且 running 缺少腿部跑动、jumping 缺少离地高度变化。脚本验证通过不能消除这些视觉问题。",
+  "repair_rows": [
+    {
+      "row": "all animation rows and look directions",
+      "issue": "头发、衣服及鞋的外缘有可见荧绿色杂边；需清理透明边缘。"
+    },
+    {
+      "row": "running",
+      "issue": "六帧双腿基本固定，主要是手臂动作，无法直观读作跑步；需重做步态。"
+    },
+    {
+      "row": "jumping",
+      "issue": "有屈膝和张臂动作，但头顶与鞋底在画布中的高度几乎固定，缺少明确的腾空阶段。"
+    },
+    {
+      "row": "failed",
+      "issue": "深蹲后迅速回到站姿，循环重置较突兀；需平顺衔接。"
+    }
+  ],
+  "review_warnings": [
+    "000 上主要靠眼睛表达，与正面中立姿势接近，缩小显示时不够一眼可认。",
+    "waiting 与 review 的动作幅度较小，状态语义依赖上下文。",
+    "部分斜向视线的水平或垂直分量较弱；在带标签的连续视图中可按轻微问题处理。",
+    "157.5→180 和 337.5→000 未见断裂或明显尺寸跳变；000→022.5 的头部转向相对更突然。"
+  ],
+  "direction_semantics": [
+    {
+      "direction": "000",
+      "expected": "上",
+      "observed": "正面，眼睛略向上",
+      "verdict": "fail",
+      "reason": "与中立正面过近，缩小后一眼难辨向上。"
+    },
+    {
+      "direction": "022.5",
+      "expected": "右上",
+      "observed": "头眼轻微偏右上",
+      "verdict": "warning",
+      "reason": "方向可循序辨认，但相对 000 的变化偏突然。"
+    },
+    {
+      "direction": "045",
+      "expected": "右上",
+      "observed": "头眼偏右上",
+      "verdict": "pass",
+      "reason": "两个方向分量可见。"
+    },
+    {
+      "direction": "067.5",
+      "expected": "右上",
+      "observed": "明显偏右，向上分量较弱",
+      "verdict": "warning",
+      "reason": "连续视图可读，单张垂直分量略含糊。"
+    },
+    {
+      "direction": "090",
+      "expected": "右",
+      "observed": "头眼明确朝画面右侧",
+      "verdict": "pass",
+      "reason": "基准右向一眼可认。"
+    },
+    {
+      "direction": "112.5",
+      "expected": "右下",
+      "observed": "头眼朝右并开始下垂",
+      "verdict": "pass",
+      "reason": "过渡自然。"
+    },
+    {
+      "direction": "135",
+      "expected": "右下",
+      "observed": "明显低头，略偏右",
+      "verdict": "warning",
+      "reason": "水平分量较弱。"
+    },
+    {
+      "direction": "157.5",
+      "expected": "右下",
+      "observed": "主要向下，稍偏右",
+      "verdict": "warning",
+      "reason": "接近 180 时偏右幅度轻微；接缝连续。"
+    },
+    {
+      "direction": "180",
+      "expected": "下",
+      "observed": "正面明显低头",
+      "verdict": "pass",
+      "reason": "基准下向一眼可认。"
+    },
+    {
+      "direction": "202.5",
+      "expected": "左下",
+      "observed": "低头，略偏左",
+      "verdict": "warning",
+      "reason": "水平分量较弱。"
+    },
+    {
+      "direction": "225",
+      "expected": "左下",
+      "observed": "低头并偏左",
+      "verdict": "warning",
+      "reason": "带标签可读，单张偏左程度略含糊。"
+    },
+    {
+      "direction": "247.5",
+      "expected": "左下",
+      "observed": "偏左且低头",
+      "verdict": "pass",
+      "reason": "与 270 的过渡顺畅。"
+    },
+    {
+      "direction": "270",
+      "expected": "左",
+      "observed": "头眼明确朝画面左侧",
+      "verdict": "pass",
+      "reason": "基准左向一眼可认。"
+    },
+    {
+      "direction": "292.5",
+      "expected": "左上",
+      "observed": "头眼偏左并抬起",
+      "verdict": "pass",
+      "reason": "方向变化连续。"
+    },
+    {
+      "direction": "315",
+      "expected": "左上",
+      "observed": "头眼偏左上",
+      "verdict": "pass",
+      "reason": "两个方向分量可见。"
+    },
+    {
+      "direction": "337.5",
+      "expected": "左上",
+      "observed": "略偏左、视线抬高",
+      "verdict": "warning",
+      "reason": "偏左幅度轻微，但到 000 的接缝平顺。"
+    }
+  ]
+}

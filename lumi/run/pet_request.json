@@ -2,7 +2,7 @@
   "pet_id": "lumi",
   "display_name": "Lumi",
   "description": "A compact white-haired blue-eyed assistant mascot in a navy-and-white hoodie with a small backpack.",
-  "created_at": "2026-09-08T13:20:00.116646+00:00",
+  "created_at": "2026-10-09T13:43:20.888885+00:00",
   "sprite_version_number": 2,
   "atlas": {
     "columns": 8,
@@ -248,13 +248,13 @@
   ],
   "references": [
     {
-      "path": "/Users/zzh/Codex/hatch-pets/lumi/run/references/reference-01.png",
+      "path": "GPT三视图.png (local build reference; not distributed)",
       "width": 1536,
       "height": 1024,
       "mode": "RGB",
       "format": "PNG",
-      "source_path": "/Users/zzh/Codex/hatch-pets/lumi/reference.png",
-      "copied_path": "/Users/zzh/Codex/hatch-pets/lumi/run/references/reference-01.png"
+      "source_path": "GPT三视图.png",
+      "copied_path": "local build backup (not distributed)"
     }
   ],
   "chroma_key": {
@@ -264,14 +264,13 @@
       255,
       0
     ],
-    "name": "green",
-    "selection": "auto",
-    "score": 219.22
+    "name": "user-selected",
+    "selection": "manual"
   },
-  "pet_notes": "White-haired, blue-eyed anime assistant mascot; oversized white hoodie with navy trim, short navy pleated skirt, white scrunched socks, navy sneakers, and a compact navy backpack. Sticker-like cel-shaded finish, calm and clever expression, no text, no logos, no scenery, no detached effects.",
+  "pet_notes": "Based on the user-supplied GPT three-view character sheet. Long white hair, blue eyes, navy hexagonal knot-emblem hair ornament, oversized white GPT hoodie with navy trim, navy pleated skirt, white scrunched leg warmers, navy-white sneakers, navy backpack. Preserve original face and proportions; crisp clean contours, no detached effects.",
   "style_preset": "sticker",
-  "style_notes": "Clean anime sticker mascot with crisp dark navy linework, pale cool palette, readable at 192x208, stable full-body silhouette and backpack.",
-  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Clean anime sticker mascot with crisp dark navy linework, pale cool palette, readable at 192x208, stable full-body silhouette and backpack..",
+  "style_notes": "Clean anime sticker mascot, crisp dark navy linework and solid color areas, readable at 192x208. Distinct up/down/left/right gaze from head and eye motion; no back-turn as down gaze.",
+  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Clean anime sticker mascot, crisp dark navy linework and solid color areas, readable at 192x208. Distinct up/down/left/right gaze from head and eye motion; no back-turn as down gaze..",
   "brand_name": "",
   "brand_brief": "",
   "brand_sources": [],

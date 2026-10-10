@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "/Users/zzh/Codex/hatch-pets/lumi/run/frames",
+  "frames_root": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames",
   "states": [
     "idle",
     "running-right",
@@ -13,7 +13,9 @@
     "review"
   ],
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
   "rows": [
     {
       "state": "idle",
@@ -26,93 +28,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11683,
+          "nontransparent_pixels": 10704,
           "bbox": [
-            47,
+            50,
             5,
-            145,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 33
+          "chroma_adjacent_pixels": 121
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11467,
+          "nontransparent_pixels": 10698,
           "bbox": [
-            49,
+            50,
             5,
-            143,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 63
+          "chroma_adjacent_pixels": 127
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11409,
+          "nontransparent_pixels": 10702,
           "bbox": [
-            49,
+            50,
             5,
-            143,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 35
+          "chroma_adjacent_pixels": 121
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11476,
+          "nontransparent_pixels": 10691,
           "bbox": [
-            49,
+            50,
             5,
-            143,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 60
+          "chroma_adjacent_pixels": 116
         },
         {
           "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/04.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11536,
+          "nontransparent_pixels": 10667,
           "bbox": [
-            48,
+            50,
             5,
-            144,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 68
+          "chroma_adjacent_pixels": 113
         },
         {
           "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/idle/05.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/idle/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11580,
+          "nontransparent_pixels": 10652,
           "bbox": [
-            47,
+            50,
             5,
-            144,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 47
+          "chroma_adjacent_pixels": 107
         }
       ]
     },
@@ -127,100 +129,70 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13277,
+          "nontransparent_pixels": 11203,
           "bbox": [
-            40,
+            46,
             5,
-            152,
+            145,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
+          "chroma_adjacent_pixels": 217
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13024,
+          "nontransparent_pixels": 11379,
           "bbox": [
             39,
             5,
-            153,
+            152,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 220
+          "chroma_adjacent_pixels": 251
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13017,
+          "nontransparent_pixels": 10661,
           "bbox": [
-            39,
+            46,
             5,
-            152,
+            145,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
+          "chroma_adjacent_pixels": 228
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12857,
+          "nontransparent_pixels": 11141,
           "bbox": [
-            39,
+            37,
             5,
-            152,
+            155,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 229
+          "chroma_adjacent_pixels": 271
         },
         {
           "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/04.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12823,
-          "bbox": [
-            40,
-            5,
-            152,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 198
-        },
-        {
-          "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12855,
-          "bbox": [
-            40,
-            5,
-            151,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 232
-        },
-        {
-          "index": 6,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12935,
+          "nontransparent_pixels": 11103,
           "bbox": [
             39,
             5,
@@ -228,22 +200,52 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 196
+          "chroma_adjacent_pixels": 260
         },
         {
-          "index": 7,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-right/07.png",
+          "index": 5,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13122,
+          "nontransparent_pixels": 10273,
           "bbox": [
-            36,
+            48,
             5,
-            156,
+            144,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 184
+          "chroma_adjacent_pixels": 200
+        },
+        {
+          "index": 6,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11352,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 246
+        },
+        {
+          "index": 7,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11365,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 243
         }
       ]
     },
@@ -258,10 +260,100 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13277,
+          "nontransparent_pixels": 11349,
+          "bbox": [
+            44,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 271
+        },
+        {
+          "index": 1,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11255,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 272
+        },
+        {
+          "index": 2,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10986,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 262
+        },
+        {
+          "index": 3,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11234,
+          "bbox": [
+            37,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 260
+        },
+        {
+          "index": 4,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10587,
+          "bbox": [
+            47,
+            5,
+            144,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 249
+        },
+        {
+          "index": 5,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10528,
+          "bbox": [
+            47,
+            5,
+            144,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 221
+        },
+        {
+          "index": 6,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11246,
           "bbox": [
             40,
             5,
@@ -269,112 +361,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
+          "chroma_adjacent_pixels": 262
         },
         {
-          "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/01.png",
+          "index": 7,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running-left/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13024,
+          "nontransparent_pixels": 11029,
           "bbox": [
-            39,
+            45,
             5,
-            153,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 220
-        },
-        {
-          "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 13017,
-          "bbox": [
-            39,
-            5,
-            152,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
-        },
-        {
-          "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12944,
-          "bbox": [
-            37,
-            5,
-            154,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 228
-        },
-        {
-          "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 13025,
-          "bbox": [
-            38,
-            5,
-            153,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 212
-        },
-        {
-          "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 13105,
-          "bbox": [
-            39,
-            5,
-            152,
+            146,
             203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 243
-        },
-        {
-          "index": 6,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12655,
-          "bbox": [
-            42,
-            5,
-            149,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 176
-        },
-        {
-          "index": 7,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running-left/07.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12712,
-          "bbox": [
-            39,
-            5,
-            152,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 164
         }
       ]
     },
@@ -389,63 +391,63 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waving/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waving/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12175,
+          "nontransparent_pixels": 10431,
           "bbox": [
-            44,
+            52,
             5,
-            148,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 23
+          "chroma_adjacent_pixels": 117
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waving/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waving/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12374,
+          "nontransparent_pixels": 10269,
           "bbox": [
-            43,
+            52,
             5,
-            149,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 18
+          "chroma_adjacent_pixels": 125
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waving/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waving/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12856,
+          "nontransparent_pixels": 10867,
           "bbox": [
-            39,
+            50,
             5,
-            153,
+            141,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 17
+          "chroma_adjacent_pixels": 115
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waving/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waving/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12066,
+          "nontransparent_pixels": 10236,
           "bbox": [
-            44,
+            52,
             5,
-            147,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 12
+          "chroma_adjacent_pixels": 117
         }
       ]
     },
@@ -453,85 +455,87 @@
       "state": "jumping",
       "expected_frames": 5,
       "actual_frames": 5,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/jumping/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/jumping/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15533,
+          "nontransparent_pixels": 9093,
           "bbox": [
-            32,
-            5,
-            159,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 170
-        },
-        {
-          "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/jumping/01.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12113,
-          "bbox": [
+            42,
             43,
-            5,
             149,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 90
+          "chroma_adjacent_pixels": 128
+        },
+        {
+          "index": 1,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10190,
+          "bbox": [
+            40,
+            8,
+            151,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 135
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/jumping/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/jumping/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13319,
+          "nontransparent_pixels": 10724,
           "bbox": [
-            37,
+            40,
             5,
-            155,
-            203
+            151,
+            167
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 114
+          "chroma_adjacent_pixels": 140
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/jumping/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/jumping/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12808,
+          "nontransparent_pixels": 9891,
           "bbox": [
-            38,
-            5,
-            153,
+            41,
+            12,
+            150,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 122
+        },
+        {
+          "index": 4,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9591,
+          "bbox": [
+            43,
+            31,
+            148,
             203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 101
-        },
-        {
-          "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/jumping/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14821,
-          "bbox": [
-            35,
-            5,
-            157,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 122
         }
       ]
     },
@@ -546,70 +550,85 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12123,
+          "nontransparent_pixels": 9897,
           "bbox": [
-            46,
+            54,
             5,
-            145,
+            138,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 80
+          "chroma_adjacent_pixels": 112
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12801,
+          "nontransparent_pixels": 10051,
           "bbox": [
-            45,
+            55,
+            5,
+            137,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 119
+        },
+        {
+          "index": 2,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10213,
+          "bbox": [
+            55,
+            5,
+            137,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 122
+        },
+        {
+          "index": 3,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10720,
+          "bbox": [
+            53,
+            5,
+            139,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 120
+        },
+        {
+          "index": 4,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12925,
+          "bbox": [
+            46,
             5,
             146,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 128
+          "chroma_adjacent_pixels": 162
         },
         {
-          "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/02.png",
+          "index": 5,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14422,
-          "bbox": [
-            39,
-            5,
-            152,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 179
-        },
-        {
-          "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 15010,
-          "bbox": [
-            37,
-            5,
-            155,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 196
-        },
-        {
-          "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 17367,
+          "nontransparent_pixels": 16781,
           "bbox": [
             33,
             5,
@@ -617,14 +636,14 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 203
+          "chroma_adjacent_pixels": 230
         },
         {
-          "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/05.png",
+          "index": 6,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20275,
+          "nontransparent_pixels": 18916,
           "bbox": [
             24,
             5,
@@ -632,37 +651,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 319
-        },
-        {
-          "index": 6,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 25729,
-          "bbox": [
-            5,
-            8,
-            187,
-            200
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 455
+          "chroma_adjacent_pixels": 312
         },
         {
           "index": 7,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/failed/07.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/failed/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16584,
+          "nontransparent_pixels": 11583,
           "bbox": [
+            49,
             5,
-            35,
-            187,
-            173
+            142,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 232
+          "chroma_adjacent_pixels": 132
         }
       ]
     },
@@ -677,93 +681,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12117,
+          "nontransparent_pixels": 10277,
           "bbox": [
-            47,
+            52,
             5,
-            145,
+            140,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 58
+          "chroma_adjacent_pixels": 112
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12152,
+          "nontransparent_pixels": 10218,
           "bbox": [
-            48,
+            52,
             5,
-            144,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 64
+          "chroma_adjacent_pixels": 105
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12085,
+          "nontransparent_pixels": 10187,
           "bbox": [
-            47,
+            53,
             5,
-            144,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 60
+          "chroma_adjacent_pixels": 98
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12221,
+          "nontransparent_pixels": 10856,
           "bbox": [
-            47,
+            48,
             5,
-            145,
+            143,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 72
+          "chroma_adjacent_pixels": 121
         },
         {
           "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/04.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12090,
+          "nontransparent_pixels": 10186,
           "bbox": [
-            47,
+            53,
             5,
-            144,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 58
+          "chroma_adjacent_pixels": 82
         },
         {
           "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/waiting/05.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/waiting/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12289,
+          "nontransparent_pixels": 10195,
           "bbox": [
-            47,
+            53,
             5,
-            145,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 69
+          "chroma_adjacent_pixels": 93
         }
       ]
     },
@@ -778,93 +782,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12983,
+          "nontransparent_pixels": 10101,
           "bbox": [
-            44,
+            53,
             5,
-            148,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 96
         },
         {
           "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/01.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12875,
+          "nontransparent_pixels": 9999,
           "bbox": [
-            44,
+            53,
             5,
-            147,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 107
         },
         {
           "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/02.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15119,
+          "nontransparent_pixels": 10004,
           "bbox": [
-            35,
+            53,
             5,
-            156,
+            138,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 97
         },
         {
           "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/03.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13033,
+          "nontransparent_pixels": 10059,
           "bbox": [
-            42,
+            53,
             5,
-            149,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 97
         },
         {
           "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/04.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12713,
+          "nontransparent_pixels": 10032,
           "bbox": [
-            45,
+            53,
             5,
-            146,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 108
         },
         {
           "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/running/05.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/running/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13079,
+          "nontransparent_pixels": 10138,
           "bbox": [
-            43,
+            53,
             5,
-            148,
+            139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
+          "chroma_adjacent_pixels": 102
         }
       ]
     },
@@ -879,10 +883,40 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/00.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11202,
+          "nontransparent_pixels": 10387,
+          "bbox": [
+            51,
+            5,
+            140,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 99
+        },
+        {
+          "index": 1,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10699,
+          "bbox": [
+            49,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 125
+        },
+        {
+          "index": 2,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10579,
           "bbox": [
             50,
             5,
@@ -890,63 +924,33 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 66
+          "chroma_adjacent_pixels": 97
         },
         {
-          "index": 1,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/01.png",
+          "index": 3,
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10909,
+          "nontransparent_pixels": 10200,
           "bbox": [
-            53,
+            52,
             5,
             139,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 129
-        },
-        {
-          "index": 2,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 11237,
-          "bbox": [
-            48,
-            5,
-            144,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 82
-        },
-        {
-          "index": 3,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 11082,
-          "bbox": [
-            49,
-            5,
-            142,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 99
+          "chroma_adjacent_pixels": 131
         },
         {
           "index": 4,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/04.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10281,
+          "nontransparent_pixels": 10269,
           "bbox": [
-            54,
+            52,
             5,
-            137,
+            140,
             203
           ],
           "edge_pixels": 0,
@@ -954,18 +958,18 @@
         },
         {
           "index": 5,
-          "file": "/Users/zzh/Codex/hatch-pets/lumi/run/frames/review/05.png",
+          "file": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/frames/review/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11021,
+          "nontransparent_pixels": 10376,
           "bbox": [
             51,
             5,
-            141,
+            140,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 106
+          "chroma_adjacent_pixels": 104
         }
       ]
     }

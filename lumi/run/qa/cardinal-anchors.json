@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "strip": "/Users/zzh/Codex/hatch-pets/lumi/run/decoded/look-cardinals.png",
+  "strip": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/decoded/look-cardinals.png",
   "directions": [
     "000",
     "090",
@@ -14,48 +14,48 @@
       "source_box": [
         0,
         0,
-        542,
-        725
+        426,
+        924
       ],
-      "used_pixels": 121038,
+      "used_pixels": 178931,
       "edge_pixels": 0,
-      "output": "/Users/zzh/Codex/hatch-pets/lumi/run/decoded/look-anchors/000.png"
+      "output": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/decoded/look-anchors/000.png"
     },
     {
       "direction": "090",
       "source_box": [
-        542,
+        426,
         0,
-        1085,
-        725
+        852,
+        924
       ],
-      "used_pixels": 100800,
+      "used_pixels": 179491,
       "edge_pixels": 0,
-      "output": "/Users/zzh/Codex/hatch-pets/lumi/run/decoded/look-anchors/090.png"
+      "output": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/decoded/look-anchors/090.png"
     },
     {
       "direction": "180",
       "source_box": [
-        1085,
+        852,
         0,
-        1628,
-        725
+        1277,
+        924
       ],
-      "used_pixels": 117308,
+      "used_pixels": 178881,
       "edge_pixels": 0,
-      "output": "/Users/zzh/Codex/hatch-pets/lumi/run/decoded/look-anchors/180.png"
+      "output": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/decoded/look-anchors/180.png"
     },
     {
       "direction": "270",
       "source_box": [
-        1628,
+        1277,
         0,
-        2170,
-        725
+        1703,
+        924
       ],
-      "used_pixels": 99840,
+      "used_pixels": 178151,
       "edge_pixels": 0,
-      "output": "/Users/zzh/Codex/hatch-pets/lumi/run/decoded/look-anchors/270.png"
+      "output": "/Users/zzh/.codex/pet-build-backups/lumi-repair-2026-10-09/run/decoded/look-anchors/270.png"
     }
   ]
 }

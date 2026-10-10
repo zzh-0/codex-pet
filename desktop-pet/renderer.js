@@ -4,7 +4,6 @@ const status = document.getElementById('status');
 const atlas = new Image();
 const CELL_W = 192;
 const CELL_H = 208;
-const ATLAS_W = 1536;
 
 const actions = {
   idle: { row: 0, frames: 6, fps: 6, label: '待机' },
@@ -29,10 +28,19 @@ let autoIndex = 0;
 
 function draw() {
   const spec = actions[current];
-  ctx.clearRect(0, 0, CELL_W, CELL_H);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   if (atlas.complete) {
-    ctx.drawImage(atlas, frame * CELL_W, spec.row * CELL_H, CELL_W, CELL_H, 0, 0, CELL_W, CELL_H);
+    ctx.drawImage(atlas, frame * CELL_W, spec.row * CELL_H, CELL_W, CELL_H, 0, 0, canvas.width, canvas.height);
   }
+}
+
+function resizeCanvas() {
+  const scale = Math.max(1, window.devicePixelRatio || 1);
+  canvas.width = Math.round(CELL_W * scale);
+  canvas.height = Math.round(CELL_H * scale);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+  draw();
 }
 
 function setAction(name) {
@@ -67,6 +75,7 @@ function tick(now) {
 
 atlas.onload = draw;
 atlas.src = 'assets/spritesheet.webp';
+window.addEventListener('resize', resizeCanvas);
 window.addEventListener('contextmenu', (event) => {
   event.preventDefault();
   window.petHost.contextMenu();
@@ -83,4 +92,5 @@ window.petHost.onCommand((command) => {
 });
 
 setAction('idle');
+resizeCanvas();
 requestAnimationFrame(tick);

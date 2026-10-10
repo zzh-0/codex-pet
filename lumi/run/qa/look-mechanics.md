@@ -1,12 +1,10 @@
-# Lumi look mechanics
+# Lumi 方向动作重做原则
 
-Lumi is a humanoid assistant with a stable grounded lower body. Keep feet, skirt hem, hoodie volume, and backpack anchor registered while the gaze leads. The blue eyes and eyelids change first, then the head and neck turn subtly; long white hair follows with a soft lag. The backpack remains worn and mostly body-locked, with straps and loose charms following the torso rather than swinging independently.
+Lumi 始终站在同一位置，双脚、裙摆和躯干保持正面为主。方向代表她的注意力和头部视线，不代表角色绕竖轴转一整圈。眼睛、脸部和头部先移动，刘海与长发轻微跟随；背包仍在她身后，不应取代正面的脸。每相邻 22.5° 都是小幅连续变化，不允许突然切到背面、改变大小或重置脚的位置。
 
-Cardinal pose families in viewer coordinates:
+- `000` 向上：正面，抬头，瞳孔上移；脸清楚可见。
+- `090` 向右：头和脸转向画面右侧，鼻尖与瞳孔向右，身体和脚保持稳定。
+- `180` 向下：正面低头，瞳孔向下，刘海可略遮眼；必须看得见脸，不能画成背影。
+- `270` 向左：头和脸转向画面左侧，鼻尖与瞳孔向左，与 `090` 明显相反。
 
-- 000 up: eyes and chin angle upward, lower face stays centered, hair lifts slightly at the crown.
-- 090 screen-right: nose and pupils shift right of head center, right cheek becomes more visible, left cheek and far eye are partly occluded; backpack stays on the rear-left silhouette.
-- 180 down: eyelids lower and gaze drops, chin tucks slightly, bangs cover more of the upper eyes.
-- 270 screen-left: nose and pupils shift left of head center, left cheek becomes more visible, right cheek and far eye are partly occluded; backpack remains behind the torso on the rear-right silhouette.
-
-Intermediate directions interpolate evenly through eye direction, eyelid shape, head turn, neck follow-through, and hair overlap. Do not rotate the whole sprite or slide only pupils over a fixed eye white. Preserve the original large blue eye construction and facial proportions. Motion budget is small and even per 22.5-degree step; feet and lower-body baseline remain fixed.
+斜向帧组合相邻两个基准动作，例如 `135` 同时向右、向下。`157.5 → 180` 和 `337.5 → 000` 是旧版最明显的跳变位置，必须在正常桌宠大小检查。四个基准方向需在不看标签的情况下可辨认。
