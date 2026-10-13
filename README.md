@@ -4,9 +4,9 @@
 
 “Lumi” 来自 luminous，意为明亮、发光；这个名字对应角色的白色长发、蓝色眼睛和清爽的蓝白配色，也足够短，适合作为宠物名称。
 
-这是一个根据角色设定图制作的 Codex-compatible v2 动画宠物。
+Lumi 是一个面向 Codex 的自定义动画宠物：白发蓝眼，穿着蓝白连帽外套，整体风格轻盈而清爽。
 
-当前版本依据原始三视图重新制作了九组动作和 16 个注视方向，并重新校验了左右、上下方向及透明边缘。四个基准方向均通过检查；少数中间斜向的方向感较轻，详见 [方向验收记录](lumi/run/qa/direction-semantics.json)。
+项目提供透明背景的 v2 精灵图，尺寸为 1536 × 2288 像素，按 8 列 × 11 行排布，包含九组状态动画和 16 个注视方向。仓库同时收录动画配置、校验记录及预览图。
 
 ## 动画资源
 
@@ -18,15 +18,15 @@
 
 | 动作 | 预览 |
 | --- | --- |
-| Idle | ![idle](lumi/run/qa/previews/idle.gif) |
-| Running right | ![running-right](lumi/run/qa/previews/running-right.gif) |
-| Running left | ![running-left](lumi/run/qa/previews/running-left.gif) |
-| Waving | ![waving](lumi/run/qa/previews/waving.gif) |
-| Jumping | ![jumping](lumi/run/qa/previews/jumping.gif) |
-| Failed | ![failed](lumi/run/qa/previews/failed.gif) |
-| Waiting | ![waiting](lumi/run/qa/previews/waiting.gif) |
-| Running / working | ![running](lumi/run/qa/previews/running.gif) |
-| Review | ![review](lumi/run/qa/previews/review.gif) |
+| 待机（idle） | ![idle](lumi/run/qa/previews/idle.gif) |
+| 向右移动（running-right） | ![running-right](lumi/run/qa/previews/running-right.gif) |
+| 向左移动（running-left） | ![running-left](lumi/run/qa/previews/running-left.gif) |
+| 挥手（waving） | ![waving](lumi/run/qa/previews/waving.gif) |
+| 跳跃（jumping） | ![jumping](lumi/run/qa/previews/jumping.gif) |
+| 沮丧（failed） | ![failed](lumi/run/qa/previews/failed.gif) |
+| 等待（waiting） | ![waiting](lumi/run/qa/previews/waiting.gif) |
+| 工作中（running） | ![running](lumi/run/qa/previews/running.gif) |
+| 检查（review） | ![review](lumi/run/qa/previews/review.gif) |
 
 ### 方向预览
 
